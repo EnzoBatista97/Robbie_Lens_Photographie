@@ -1,30 +1,35 @@
-a {
-    color: black;
+body {
+    /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1F2039;
+    color: #F9F8FF
+  }
+  
+  a {
+    color: #242424
+    text-decoration: none;
   }
   
   em {
     color: #a5b4fc;
     font-style: normal;
   }
-
-  h1{
+  
+  h1 {
     font-size: 3.5em;
-    color: #A5B4FC;
+    color: #a5b4fc;
     font-family: 'Montserrat', sans-serif;
   }
-
-  p{
+  
+  p {
     font-size: 1.1em;
-    font-family: 'Manrope', sans-serif
   }
 
-  ul{
-    font-size: 1em;
-    font-family: 'Manrope', sans-serif
+  div{
+    background-color: white;
   }
 
-  a{
-    text-decoration: none;
-    font-size: 1em;
-    font-family: 'Manrope', sans-serif
+  .contact{
+    background: linear-gradient(#8E86B5,#ACAEED)
   }
